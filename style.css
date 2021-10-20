@@ -16,7 +16,8 @@ body{
     bottom: 0;
     background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     z-index: 9;
-}.menu{
+}
+.menu{
     list-style: none;
     font-family: sans-serif;
     position: absolute;
