@@ -1,39 +1,75 @@
-body{
+.container
+{
     text-align: center;
-    margin: 0;
-    padding-top: 800px;
 }
-.diamond{
-    width: 200px;
-    margin-bottom: 50px;
-    border-radius: 50%;
-} 
-#drawing{
-    height: 800px;
-    left:0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
-    z-index: 9;
-}
-.menu{
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    z-index: 10;
-    cursor: pointer;
+.menu1{
+float:left;
+list-style:none;
+color:white;
+position:fixed;
+background:black;
+width:100%;
+margin-top:0px;
+top:0px;
+z-index:10;
 }
 .links{
-    float: left;
-    color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+display:inline;
+font-size:20px;
+padding-left:35px;
+padding-right:35px;
 }
-.links:hover{
-    background-color:dodgerblue;
+#img1{
+  width: 100%;
+}
+.img2{
+    width: 250px;
+    height: 200px;
+}
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+  }
+
+.modal-body
+{
+    text-align: center
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 350px;
+       }
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
 }

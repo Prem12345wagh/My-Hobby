@@ -1,59 +1,151 @@
-<html>
-<head>
-   <title>My Favourite Hobby</title>
-    <link rel="stylesheet" href="style.css">
-    </head>
-<body>
-    <ul class="menu">
-    <li class="links"><a href="#drawing">Home</a></li>
-    <li class="links"><a href="#videos">Videos</a></li>
-    <li class="links"><a href="#about">About it</a></li>
-    <li class="links"><a href="#howtodo">How To Do</a></li>
-        <li class="links"><a href="#images">Images</a></li>
-    
+<html><head>
+	<title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+	<body><h3>
+
+
+    <center>   
+    <ul class="menu1">
+      <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#">Grid view</a></li>
+        <!--add Grids in href as href="#Grids"-->
+        <li class="links"><a href="#">Slide view</a></li>
+        <!--add Slides in href as href="#Slides"-->
+		    
     </ul>
- <section id="drawing" class="5 Ruby">
-  <div class="english">
-     <img class="diamond" src="maxresdefault.jpg">
-      <h1>My Favourite Hobby <br><span id="name">Is Drawing</span></h1> <h2>I love Drawing</h2>
-     </div>  
+</center>
+</h3>
+
+
+<div class="container">
+    <section id="home">
+    <div class="page-header">
+  		<h2 class="text-capitalize"></h2>
+        <img id="img1" src="flowers.gif" class="img-responsive">
+    </div>
+          </section>
+       <!---->
+   <hr style="width: 100%;">
+     <section id="Grids">
+        <h2> Grid gallery</h2>   
+          <br>
+         <script src=""></script>
+          <div class="row">
+              <img class="img2" src="blue.jpg">
+              <img class="img2" src="Orange.png">
+              <img class="img2" src="Pink tulip.jpg">
+              <img class="img2" src="purple.jpg">
+              <br><br>	
+            </div>
+          <div class="row">
+            <img class="img2" src="Red rose.jpg">
+            <img class="img2" src="violet.jpg">
+            <img class="img2" src="White.jpg">
+            <img class="img2" src="yellow.jpg">
+             </div>
+             
+ </section>
+   
+    <br>
+    <br>
+     <hr style="width: 100%;">
     
-</section>   
- <section>
- <h1>Drawing   </h1>
- <div class="line"></div>   
- <p>
- I think drawing is the best hobby. You can create art anywhere as long as you have two things: pencils and paper. It's good to start at a young age because it gives you a chance to start using your brain and to be creative. Also, it is an opportunity to challenge thinking skills and develop learning skills.<br><br>Hobby is an activity which we do to pass time with enjoyment. Basically, when we are free of our regular activities, we do something which we enjoy. This is called hobby.
+      
+       <!-- Left and right controls -->
+    <section id="Slides">
+       <h2>Sliding gallery</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
 
-Hobbies are of different kinds. It depends on one’s likeness towards a hobby. People have hobbies like drawing, painting, photography and gardening etc. Every one of us likes to engage ourselves in some hobbies. Hobbies help one to remain active. Hobbies entertain us. They help people to be energetic all the time.
-     We can get mental peace from doing the works we love. They help to add some more knowledge and skills to our past knowledge. A sport like playing football helps one to attain physical development. It develops a sense of team spirit in a person.
+      <div class="item">
+        <img class="img-responsive" src="blue.jpg" alt="Blue" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Blue Flower</h3>
+          <p></p>
+        </div>
+      </div>
 
-
-My hobby is drawing. I love to draw with different colours. Drawing gives me happiness. My most favourite time is when I come back from school because at that time I get free time to paint.
-      I also love to paint fruits like mango, orange and banana. My mother motivates me to draw more and more. In my school also, everyone loves my drawings. Whenever there is a school competition, my teachers call me to participate. In my home, there is a small room made by my father. In that room, I have kept all the pictures which I have drawn. I have drawn mango, cow, apple, banana and many more.
-
-My mother and father always help me in getting coloured pencils, sketch pens etc. They become very happy because I do not waste time and do my drawing in free time.
+      <div class="item active">
+        <img class="img-responsive" src="Orange.png" alt="Orange" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Orange Flower</h3>
+          <p></p>
+        </div>
+      </div>
     
-     </p>   
-    
-    </section>   
-    <section id="videos">
-    <h1>VIDEOS</h1>
-        <div class="line"></div>
-        <br>
-        <iframe width="900" height="506" src="https://www.youtube.com/embed/Jx2xtPvmk8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <iframe width="900" height="506" src="https://www.youtube.com/embed/kKWoFymDvpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-    <section id="about">
-    <h1>ABOUT IT</h1>
-        <div class="line"></div>
-        <iframe width="910" height="1000" src="
-https://en.wikipedia.org/wiki/Drawing"></iframe>
+      <div class="item">
+        <img class="img-responsive" src="Pink tulip.jpg" alt="Pink" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Pink Tulip</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="purple.jpg" alt="Purple" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Purple Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="Red rose.jpg" alt="Red" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Red Rose</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="violet.jpg" alt="Violet" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Violet Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="White.jpg" alt="White" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>White Flower</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="yellow.jpg" alt="Yellow" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Yellow Flower</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+        
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
     </section>
-    <section id="howtodo">
-    <h1>HOW TO DO</h1>
-        <div class="line"></div>
-        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjw5bXpub_zAhUtlUsFHawnDxcYABAAGgJzZg&ae=2&ohost=www.google.com&cid=CAESQeD2bUmUQwrzUuj-tXYa7eKJIyA1RtEENf8DFvQGIXrWonbMEnbYhCIvHYorRUab9eGQUdoKm_kmgejv2QPfj1NB&sig=AOD64_0Oz1kIZz1ZUSqFnMiIzGf6gbRi-Q&q&adurl&ved=2ahUKEwiV1K3pub_zAhXAILcAHUh7AOkQ0Qx6BAgFEAE" target="_blank">How to do</a>
-    </section>
+        </div>
+
+
+
+</body></html>
